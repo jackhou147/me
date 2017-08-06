@@ -18,5 +18,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://jackhou147.github.io/jackhou147.github.io"
+  "homepage": "https://jackhou147.github.io/me"
 }
