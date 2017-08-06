@@ -1,0 +1,159 @@
+@media only screen and (min-width: 768px) {
+
+    body{
+        padding: 0;
+    }
+
+    .home,
+    .portfolio,
+    .about,
+    .contact,
+    .nav-page{
+        width: calc(100vw - 90px);
+        left: 90px;
+        top: 0;
+
+    }
+
+    /****************************************
+    ***************LOADER*****************
+    *****************************************/
+    .loader {
+        width: 30vw;
+        height: 30vw;
+        margin: calc((100vh - 30vw)/2) auto;
+    }
+
+    /****************************************
+    ****************NAV BAR******************
+    *****************************************/
+    .nav-bar {
+        width: 90px;
+        height: 100vh;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 5;
+        background-image: url(../pictures/navbarVer.png);
+    }
+
+    .nav-bar__logo {
+        width: 85px;
+        height: 85px;
+        top: calc((100vh - 85px)/2);
+        left: 2.5px;
+    }
+
+    .nav-bar__btn {
+        width: 38px;
+        height: 38px;
+        left: 26px;
+        top: 30px;
+    }
+
+    /****************************************
+    ****************NAVPAGE********************
+    *****************************************/
+    .nav-page {
+        height: 100vh;
+    }
+
+    .nav-page__links {
+        margin-top: 2%;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+        width: 50%;
+        left: 5%;
+        font-size: 3.7em;
+        height: 65%;
+    }
+
+    .outline {
+        text-align: left;
+        padding-left: 2%
+    }
+
+    /****************************************
+    ****************HOME*********************
+    *****************************************/
+    .home {
+        height: 100vh;
+    }
+
+    .circleAni {
+        width: 650px;
+        height: 650px;
+    }
+
+    /****************************************
+    ****************PORTFOLIO****************
+    *****************************************/
+    .project {
+        min-height: 80vw;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    }
+
+    .project__pic {
+        width: 35vw;
+        height: 35vw;
+    }
+
+    .project__description{
+        width: 30vw;
+        min-height: 15vw;
+    }
+
+    .project2,
+    .project4,
+    .project6,
+    .project8{
+        -ms-flex-direction: row;
+            flex-direction: row;
+    }
+
+    /****************************************
+    ****************ABOUT********************
+    *****************************************/
+
+    .about .sections {
+        width: 70%;
+    }
+
+    /****************************************
+    ****************CONTACT********************
+    *****************************************/
+
+    .contact .social-media{
+        width: 340px;
+        margin-right: 5%;
+    }
+
+    .contact .logo-btn {
+        width: 50px;
+        height: 50px;
+        background-size: 25px 25px;
+
+    }
+
+
+    /****************************************
+    ****************ABOUT********************
+    *****************************************/
+    .about__photo-social {
+        width: 30vw;
+    }
+
+    .about__photo {
+        width: 89%;
+        height: 25vw;
+    }
+
+    .about .sections .section{
+        float:left;
+        margin-right: 15%;
+    }
+
+}

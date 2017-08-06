@@ -1,0 +1,137 @@
+* {
+    color: black;
+}
+
+.home,
+.portfolio,
+.about,
+.contact,
+.nav-page{
+    background-color: #2C2E31;
+    background-color: #EBEDF3;
+    /*color: black;*/
+    background-color: #E4F4F3;
+}
+
+
+
+/****************************************
+***************LOADER*****************
+*****************************************/
+.loader-page {
+    background-color: whitesmoke;
+}
+
+/****************************************
+***************REUSABLES*****************
+*****************************************/
+.action-btn{
+    color: black;
+}
+
+/****************************************
+****************NAV BAR******************
+*****************************************/
+.nav-bar{
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+/****************************************
+****************HOME*********************
+*****************************************/
+
+
+/****************************************
+****************CONTACT********************
+*****************************************/
+.contact h1{
+    color: #1BABA0;
+    font-weight: 100;
+}
+
+.contact__intro p{
+    color: #838585;
+}
+
+.contact__intro a{
+    color:darkslategrey;
+}
+
+.contact form input:not(.action-btn),
+.contact form textarea{
+    background-color: transparent;
+    border-bottom: 2px solid #BDBDBD;
+}
+
+.contact form input:focus,
+.contact form textarea:focus {
+    border-bottom-color: black;
+    
+}
+
+/****************************************
+****************NAVPAGE********************
+*****************************************/
+.nav-page hr{
+    border-color: 1fe0d1;
+}
+
+.nav-page {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(5, 133, 124, 0.9)),to(rgba(27, 171, 160,0.8)));
+    background: -webkit-linear-gradient(bottom, rgba(5, 133, 124, 0.9),rgba(27, 171, 160,0.8));
+    background: -o-linear-gradient(bottom, rgba(5, 133, 124, 0.9),rgba(27, 171, 160,0.8));
+    background: linear-gradient(to top, rgba(5, 133, 124, 0.9),rgba(27, 171, 160,0.8));
+}
+
+.nav-page__links span,
+.nav-page__footer a,
+.nav-page__footer p{
+    color: #E0E0E0
+}
+
+/****************************************
+****************PORTFOLIO****************
+*****************************************/
+
+
+/****************************************
+****************ABOUT****************
+*****************************************/
+.about h1 {
+    color: #1BABA0;
+}
+
+.about__intro h2 i{
+    color: #838585;
+}
+
+
+.about .section span, li{
+    color: white;
+}
+
+
+.about .section:nth-child(1) {
+    background-color: #005f63;
+}
+
+.about .section:nth-child(2){
+    background-color: #01a093;
+}
+
+.about .section li{
+    -webkit-transition: color 0.2s ease;
+    -o-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+    cursor: default;
+}
+
+.about .section li:hover {
+    background-color: #FEF569;
+    color: black;
+    font-weight: bold;
+}
+
+

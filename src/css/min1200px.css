@@ -1,0 +1,35 @@
+@media only screen and (min-width: 1200px) {
+    
+    /****************************************
+    ****************ABOUT********************
+    *****************************************/
+    .about__intro,
+    .about__skills,
+    .about__about-this-site{
+        padding-left: 5%;
+    }
+
+    .about .sections {
+        width: 55%;
+    }
+
+    /****************************************
+    ****************CONTACT********************
+    *****************************************/
+    .contact__intro,
+    .contact .social-media,
+    .contact__location,
+    .contact form,
+    .contact__location-social{
+        width: 70vw;
+    }
+    .contact .social-media{
+        margin-right: 10%;
+    }
+
+    .contact .logo-btn {
+        width: 55px;
+        height: 55px;
+    }
+
+}

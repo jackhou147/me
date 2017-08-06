@@ -1,0 +1,75 @@
+@media only screen and (min-width: 480px) {
+    
+    /****************************************
+    ****************ABOUT********************
+    *****************************************/
+
+    /***********/
+    .about__intro,
+    .about__skills,
+    .about__about-this-site{
+        margin-bottom: 10%;
+    }
+
+    .about__photo-social {
+        width: 45vw;
+        float: right;
+    }
+
+    .about__photo {
+        width: 89%;
+        height: 40vw;
+    }
+
+    .social-media{
+        width: 90%;
+        border: 1px dashed black;
+    }
+
+    .about .sections {
+        width: 75%;
+    }
+
+    .about .section:nth-child(1) ul:nth-child(2),
+    .about .section:nth-child(1) ul:nth-child(3){
+        float: left;
+        margin: 5%;
+    }
+
+
+    /****************************************
+    ****************CONTACT******************
+    *****************************************/
+    .contact__intro p{
+        font-size: 1.2em;
+    }
+
+    .contact__location-social {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+            flex-direction: row;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    }
+
+    .contact__location,
+    .contact .social-media{
+        height: 100%;
+        margin-bottom: 0;
+    }
+
+    .contact .social-media {
+        margin: 2% 0 0 10%;
+    }
+
+    .contact input.action-btn{
+        width: 200px;
+    }
+
+    /****************************************
+    ****************HOME*********************
+    *****************************************/
+
+
+}
