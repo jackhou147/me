@@ -3,6 +3,7 @@ import {TweenLite,TimelineLite,Power2,Power3} from "gsap";
 import pic from '../pictures/jackhou.png'
 import checkWindowSize from './plugins.js'
 import ScrollToPlugin from "gsap/ScrollToPlugin";
+import resume from './resume.pdf'
 
 function CardBack(props){
     
@@ -197,7 +198,8 @@ function AboutH2(props){
 function AboutP(props){
     return (
         <p ref={props.pRef}>As a creative thinker and doer, I bring designs to life using cutting edge technologies for fully interactive and responsive websites and apps. <br/>
-        As a quick learner and team player, I believe in the power of learning and communication. I'm driven by the constant desire for improvements and the belief that great products come from passion and collaboration.</p>
+        As a quick learner and team player, I believe in the power of learning and communication. I'm driven by the constant desire for improvements and the belief that great products come from passion and collaboration.
+        </p>
     )
 }
 
@@ -227,6 +229,7 @@ function AboutSkills(props){
                         <li>jQuery</li>
                         <li>React</li>
                         <li>Bootstrap</li>
+                        <li>Sass</li>
                     </ul>
                 </div>
                     <div className="section">
@@ -239,6 +242,8 @@ function AboutSkills(props){
                     </ul>
                 </div>
                 </div>
+            
+                <a href={resume} target="_blank" className="resume-link">Download resume </a>
             </div>
         )
 }

@@ -6,7 +6,8 @@ import timer from "../pictures/timer.png"
 import weather from "../pictures/weatherapp.png"
 import quote from "../pictures/quotescreenshot.png"
 import wiki from "../pictures/wikiViewer.png"
-import previewer from "../pictures/markdown.jpg"
+import previewer from "../pictures/markdown.png"
+import recipebox from '../pictures/recipebox.png'
 import checkWindowSize from './plugins.js'
 import {TweenLite,TimelineLite,} from "gsap";
 import timeLine from "./portfolioTimeline.js"
@@ -113,6 +114,14 @@ class Portfolio extends Component{
                     Description_title: "Markdown Previewer",
                     Description_text: "This is a single page app that lets the user see a preview of the Marked output that is updated as typing. Page is made with React and Marked library.",
                     Description_href: "https://github.com/jackhou147/markdown-previewer"
+                },
+                {
+                    Pic_href: "https://jackhou147.github.io/recipebox/",
+                    Pic_src: recipebox,
+                    Pic_alt: "recipe box",
+                    Description_title: "Recipe Box",
+                    Description_text: "This is a single page app that allows the user to create, edit and delete recipes with names and ingredients. Powered by React and GSAP.",
+                    Description_href: "https://github.com/jackhou147/recipebox"
                 }
             ],
             tl: new TimelineLite()
